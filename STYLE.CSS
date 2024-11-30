@@ -58,3 +58,67 @@ cursor:pointer;
 margin-bottom: 10px;
 position: relative;
 padding-left: 30px;
+}
+
+label.checkbox::before {
+  conter:;
+  position:absolute;
+left:0;
+top: 50%;
+transform: translateY(-50%);
+widht: 20px;
+height: 20px;
+border: 2px solid #ffc107;
+backgroud-color: #333;
+border-radius: 5px;
+}
+
+input[type="checkbox"]:checked +label.checkbox::before {
+   background-color: #ffc107;
+}
+
+button {
+  padding:10px;
+  background-color: 0.3s;
+  width: 150px;
+}
+button:hover {
+   backgtound-color: #218838:
+}
+
+#movieResults {
+   margin-top; 20px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.movie {
+   backgroud-color: #333;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #ddd:
+   width: 500px;
+   height: 500px;
+}
+  .movie img {
+    width 100%;
+    border-radius: 5px;
+ }
+    .movie h3 {
+      margin:0;
+      font-size: 1em;
+ } 
+
+    .movie p {
+      margin: 5px 0;
+      font-size: 0.9em;
+ }
+
+ iframe {
+     width: 100%;
+     height: 400px;
+     margin-top: 10px;
+     border:none;
+ }
+
+
