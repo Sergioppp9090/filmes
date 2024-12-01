@@ -11,3 +11,5 @@ document.getElementById('filmForm').addEventListener('submit', (event) => {
     // Filtra os filmes com base na idade e categorias
      let fileredMovies;
      if (age>= 1 && age <= 9) {
+        // Filtra  filmes  adequados para idade de 0 a 9
+         filteredMovies =móveis.gilter
